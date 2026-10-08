@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("br2.jpg");
+            background-size:none;
+            background-position: center;
+            height: 100vh;
+            color: #CCB4C9;
+        }
+		
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: 2B0A40;
+            background: rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: white;
+            color: black;
+        }
+
+        /* Main Content */
+        .container {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px black;
+        }
+		
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="home.html"> HOME</a>
+        <a href="about.html"> ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+		<a href="product.html">PRODUCT</a>
+		<a href="login.html">LOGOUT</a>
+    </nav>
+
+    <div class="container">
+        <h1>WELCOME TO DIOR COLLECTION</h1>
+        <p> Discover timeless elegance luxury.Explore our collection and find pieces designed to make every moment beautiful. 
+		</p>
+    </div>
+</body>
+</html>
