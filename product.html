@@ -90,6 +90,116 @@
         button:hover {
             background-color: #E69F65;
         }
+		 /* Make background fit the screen */
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Tablets and smaller laptops */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 35px 20px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .contact-container {
+        width: 90%;
+        margin: 35px auto;
+        padding: 30px;
+    }
+
+    .contact-container h2 {
+        font-size: 28px;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav {
+        gap: 5px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+
+    .contact-container {
+        width: 92%;
+        margin: 25px auto;
+        padding: 20px;
+    }
+
+    .contact-container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    input,
+    textarea {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    button {
+        width: 100%;
+        padding: 13px 15px;
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 30px;
+        padding: 12px 5px;
+        font-size: 14px;
+    }
+}
+
+/* Very small mobile screens */
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .contact-container {
+        padding: 15px;
+    }
+}
 		</style>
 </head>
 
